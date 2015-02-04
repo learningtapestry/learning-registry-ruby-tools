@@ -1,4 +1,5 @@
-require 'slop'
+require 'bundler'
+Bundler.require
 require 'json'
 require 'digest'
 require './learningregistry'
@@ -36,9 +37,8 @@ opts = Slop.parse do
 end
 
 if opts[:help] then
-  o.separator "For very large datasets do not use start/end parameter. \n"+
+  puts "For very large datasets do not use start/end parameter. \n"+
    "First download all records, then pull small sets using start/end parameters."
-
   puts opts.to_s
   exit
 end
