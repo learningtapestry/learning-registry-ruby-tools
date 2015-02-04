@@ -53,9 +53,9 @@ start = opts[:start]
 to = opts[:until]
 
 if !start && !to then
-  LR::retrieve_all_records(node: node, folder: folder)
+  LR::retrieve_all_records(:node => node, :folder => folder)
 else
-  LR::retrieve_records_by_date(node: node, folder: folder, start: start, until: to)
+  LR::retrieve_records_by_date(:node => node, :folder => folder, :start => start, :until => to)
 end
 
 

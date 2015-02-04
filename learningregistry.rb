@@ -67,7 +67,7 @@ module LR; class << self;
         File::write(err_file, stream)
         retries += 1
         if retries < max_retries
-          continue
+          next
         else
           abort "Max retries reached. Unable to retrieve data. Aborting.."
         end

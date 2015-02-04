@@ -10,8 +10,8 @@ class LRModuleTest < Minitest::Test
   def test_retrieve_all_records
     # limit test to first four resumption payloads
     LR::max_resumptions = 2
-    LR::retrieve_all_records(node: 'http://sandbox.learningregistry.org', 
-      folder: @temp, quiet: true)
+    LR::retrieve_all_records(:node => 'http://sandbox.learningregistry.org', 
+      :folder => @temp, :quiet => true)
     # validate that all retrieved entries are valid json
     Dir.glob(File::join("#{@temp}","**", "*")) do |file|  
       if File::file?(file) then
