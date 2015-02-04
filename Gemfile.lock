@@ -7,7 +7,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
     rake (10.4.2)
-    slop (4.0.0)
+    slop (3.6.0)
 
 PLATFORMS
   ruby
@@ -15,4 +15,4 @@ PLATFORMS
 DEPENDENCIES
   http
   rake
-  slop
+  slop (~> 3.6.0)

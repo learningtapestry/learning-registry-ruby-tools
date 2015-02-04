@@ -1,6 +1,5 @@
 require 'slop'
 require 'json'
-require 'http'
 require 'digest'
 require './learningregistry'
 
@@ -28,20 +27,18 @@ def require_opts(requirements, opts)
   end
 end
 
-opts = Slop.parse do |o|
-  o.separator "For very large datasets do not use start/end parameter. \n"+
-   "First download all records, then pull small sets using start/end parameters."
-  o.separator 'Required parameters:'
-  o.string  '-n', '--node', 'LR node to access (include http[s]://)'
-  o.string  '-f', '--folder', 'Folder to save resources in (will be created if not found)'
-  o.separator ''
-  o.separator 'Optional parameters:'
-  o.string  '-s', '--start', 'Start date for extraction (not yet implemented!)'
-  o.string  '-u', '--until', 'End date for extraction (not yet implemented!)'
-  o.null    '-?', '--help', 'View this help'
+opts = Slop.parse do
+  on 'n', 'node=', 'LR node to access (include http[s]://)'
+  on 'f', 'folder=', 'Folder to save resources in (will be created if not found)'
+  on 's', 'start=', 'Start date for extraction (not yet implemented!)'
+  on 'u', 'until=', 'End date for extraction (not yet implemented!)'
+  on '?', 'help=', 'View this help'
 end
 
 if opts[:help] then
+  o.separator "For very large datasets do not use start/end parameter. \n"+
+   "First download all records, then pull small sets using start/end parameters."
+
   puts opts.to_s
   exit
 end

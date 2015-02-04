@@ -1,5 +1,6 @@
+require 'open-uri'
+require 'uri'
 require 'digest'
-require 'http'
 require 'json'
 require 'tempfile'
 
@@ -50,21 +51,28 @@ module LR; class << self;
     resume = ""
     counts = {:loop => 0}
     x = 0
+    max_retries = 4
+    retries = 0
     print "Retrieving record blocks: " if !quiet
     # Loop through obtain API resumption tokens until none left
     while true do
       url = slice_url(node)
-      params = resume.size > 0 ? {resumption_token: resume} : {}
-      stream = HTTP.get(url, params: params).to_s
+      request_uri = resume.size > 0 ? URI::join(url, "?resumption_token=#{resume}") : URI::join(url)
+      stream = URI.parse(request_uri.to_s).read
       begin
         json = JSON.parse(stream)
       rescue JSON::ParserError
-        STDERR.puts "Rescuing parse error." if !quiet
+        STDERR.puts "\nRescuing parse/download error. Retrying.." if !quiet
         err_file = Dir::Tmpname.create("lr_parse_error") {}
         File::write(err_file, stream)
-        stream += "]}"
-        json = JSON.parse(stream)
+        retries += 1
+        if retries < max_retries
+          continue
+        else
+          abort "Max retries reached. Unable to retrieve data. Aborting.."
+        end
       end
+      retries = 0
       resume = json["resumption_token"]
       json["documents"].each do |doc|
         tree_balanced_write(doc["doc_ID"], base_folder, doc.to_json) if doc["doc_ID"]
