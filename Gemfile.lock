@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    form_data (0.1.0)
+    http (0.7.1)
+      form_data (~> 0.1.0)
+      http_parser.rb (~> 0.6.0)
+    http_parser.rb (0.6.0)
+    rake (10.4.2)
+    slop (4.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  http
+  rake
+  slop
