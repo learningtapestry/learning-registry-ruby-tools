@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    json (1.8.2)
+    minitest (5.5.1)
     rake (10.4.2)
     slop (3.6.0)
 
@@ -8,5 +10,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json
+  minitest
   rake
   slop (~> 3.6.0)

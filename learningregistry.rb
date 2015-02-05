@@ -20,11 +20,14 @@ module LR; class << self;
     path = base_folder
     while (dir = hash.slice!(0..1)).size > 0 do
       path = File::join(path,dir)
-      Dir::mkdir(path) if !Dir::exists?(path)
+      Dir::mkdir(path) if !File::directory?(path)
       break if Dir::entries(path).size < (max_entries_in_tree || DEFAULT_MAX_ENTRIES_IN_TREE)
     end
     path = File::join(path, tree_id)
-    File::write(path, data)
+    f = File.new(path, "w")
+    f.write(data)
+    f.close
+    #File::write(path, data)
     path
   end
 
@@ -45,7 +48,7 @@ module LR; class << self;
     node = options[:node]
     base_folder = options[:folder]
     quiet = !!options[:quiet]
-    Dir::mkdir(base_folder) if !Dir::exists?(base_folder)
+    Dir::mkdir(base_folder) if !File::directory?(base_folder)
 
     puts "Retrieving all records from LR node #{node}..." if !quiet
     resume = ""
