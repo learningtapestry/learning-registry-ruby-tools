@@ -2,7 +2,7 @@
 Tool for bridging Learning Registry and other systems.
 
 ## Installation instructions
-* Should work with Ruby 1.8.7 or greater
+* We *highly* recommend you use Ruby 1.9.3 or greater. It *should* work in 1.8.7 but we don't recommend this and don't guarantee it in the future.
   * https://www.ruby-lang.org/en/documentation/installation/
 * You must have Ruby gems installed also (usually this comes with Ruby unless you build from source).
 * Install "bundler": `sudo gem install bundler` or Windows `gem install bundler`
