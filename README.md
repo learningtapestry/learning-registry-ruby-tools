@@ -1,5 +1,5 @@
-# lr-bridge
-Tool for bridging Learning Registry and other systems.
+# Learning Registry Ruby Tools
+Tools for integrating Learning Registry and other systems.
 
 ## Installation instructions
 * We *highly* recommend you use Ruby 1.9.3 or greater. It *should* work in 1.8.7 but we don't recommend this and don't guarantee it in the future.
@@ -10,6 +10,10 @@ Tool for bridging Learning Registry and other systems.
   * You can download a zip of this repo here: https://github.com/learningtapestry/lr-bridge/archive/master.zip
 * From that local folder, run: `bundle install`
   * Provide sudo password if requested
+
+## lr-bridge
+lr-bridge tool will download all LR records and save them to a local folder.
+
 * Run lr-bridge to retrieve all LR records as:
 ```
 ruby lr-bridge.rb --node http://sandbox.learningregistry.org --folder /tmp/lr-test-download
@@ -18,7 +22,7 @@ Or for Windows:
 ```
 ruby lr-bridge.rb --node http://sandbox.learningregistry.org --folder c:/temp/lr-test-folder
 ```
-  * Waaaaait. It takes a while to download all the records. You should see status updates as it runs.
+  * Wait... It takes a while to download all the records. You should see status updates as it runs.
   * If it fails, you have to restart from the beginning unfortunately and **use a new download folder**!
 
 * You should now have all the records from LR in the folder you specified
