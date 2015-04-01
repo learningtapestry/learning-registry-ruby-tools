@@ -1,0 +1,1360 @@
+[
+  {
+    "@context": "http://dp.la/api/items/context",
+    "dataProvider": "Lionel Pincus and Princess Firyal Map Division. The New York Public Library",
+    "admin": {
+      "object_status": 1,
+      "valid_after_enrich": true,
+      "validation_message": null
+    },
+    "sourceResource": {
+      "publisher": ["The Automobile Club of America"],
+      "title": "Tour book",
+      "@id": "http://dp.la/api/items/4aefd9e1cd9fb905a64cd9ac5657bc7c#sourceResource",
+      "rights": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "collection": {
+        "@id": "http://dp.la/api/collections/3bbc466ea28e4220f89a660ab0d02e59",
+        "id": "3bbc466ea28e4220f89a660ab0d02e59",
+        "title": "United States"
+      },
+      "date": {
+        "begin": "1909",
+        "end": "1911",
+        "displayDate": "[1909-1911]"
+      },
+      "relation": "United States",
+      "extent": "20 cm.",
+      "spatial": [{"name": "New York"}],
+      "stateLocatedIn": [{"name": "New York"}],
+      "type": "image",
+      "subject": [{"name": "Automobile travel--Guidebooks"}]
+    },
+    "_rev": "1-d69d128d34b4fae48b1d915eabe179f6",
+    "object": "http://images.nypl.org/index.php?id=5090679&t=t",
+    "aggregatedCHO": "#sourceResource",
+    "ingestDate": "2014-09-05T17:53:44.431204Z",
+    "@type": "ore:Aggregation",
+    "originalRecord": {
+      "physicalDescription": {
+        "extent": "20 cm.",
+        "form": [
+          {
+            "valueURI": "",
+            "#text": "3 v.",
+            "authority": ""
+          },
+          {
+            "valueURI": "",
+            "#text": "front., illus. (incl. maps) col. pl.",
+            "authority": ""
+          }
+        ]
+      },
+      "tmp_high_res_link": "http://link.nypl.org/uCn40h51QVCW1iayZAp6JQa",
+      "_id": "000003e0-7239-0131-dc4e-58d385a7bbd0",
+      "name": {
+        "usage": "primary",
+        "namePart": "Automobile Club of America",
+        "valueURI": "http://id.loc.gov/authorities/names/n2005070843",
+        "type": "corporate",
+        "authority": "naf"
+      },
+      "tmp_image_id": "5090679",
+      "titleInfo": [
+        {
+          "lang": "eng",
+          "script": "",
+          "title": "Atlases of the United States",
+          "authority": "",
+          "supplied": "yes",
+          "usage": "primary",
+          "type": ""
+        },
+        {
+          "usage": "primary",
+          "supplied": "no",
+          "title": "United States"
+        },
+        {
+          "lang": "",
+          "title": "Tour book",
+          "script": "",
+          "authority": "",
+          "usage": "primary",
+          "type": ""
+        }
+      ],
+      "tmp_rights_statement": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "collection": {
+        "@id": "http://dp.la/api/collections/3bbc466ea28e4220f89a660ab0d02e59",
+        "id": "3bbc466ea28e4220f89a660ab0d02e59"
+      },
+      "relatedItem": {
+        "titleInfo": {"title": "United States"},
+        "type": "host",
+        "identifier": [
+          {
+            "#text": "2679d970-c5ec-012f-7012-58d385a7bc34",
+            "type": "uuid"
+          },
+          {
+            "#text": "1062589",
+            "type": "local_hades"
+          }
+        ],
+        "relatedItem": {
+          "titleInfo": {"title": "Atlases of the United States"},
+          "type": "host",
+          "identifier": [
+            {
+              "#text": "2600a3f0-c5ec-012f-424e-58d385a7bc34",
+              "type": "uuid"
+            },
+            {
+              "#text": "1062588",
+              "type": "local_hades"
+            }
+          ]
+        }
+      },
+      "tmp_item_link": "http://digitalcollections.nypl.org/items/000003e0-7239-0131-dc4e-58d385a7bbd0",
+      "originInfo": {
+        "dateIssued": "[1909-1911]",
+        "place": {
+          "placeTerm": {
+            "#text": "New York",
+            "type": "text"
+          }
+        },
+        "copyrightDate": {
+          "#text": "1910",
+          "encoding": "w3cdtf"
+        },
+        "publisher": "The Automobile Club of America"
+      },
+      "location": [
+        {
+          "physicalLocation": [
+            {
+              "#text": "nn",
+              "type": "repository",
+              "authority": "marcorg"
+            },
+            {
+              "#text": "Lionel Pincus and Princess Firyal Map Division",
+              "type": "division"
+            }
+          ]
+        },
+        {
+          "physicalLocation": {
+            "#text": "nn",
+            "type": "repository",
+            "authority": "marcorg"
+          },
+          "shelfLocator": "Map Div. (United States) (Automobile club of America. Tour book)"
+        }
+      ],
+      "version": "3.4",
+      "provider": {
+        "@id": "http://dp.la/api/contributor/nypl",
+        "name": "The New York Public Library"
+      },
+      "schemaLocation": "http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd",
+      "identifier": [
+        {
+          "displayLabel": "NYPL catalog ID (B-number)",
+          "#text": "b13679865",
+          "type": "local_bnumber"
+        },
+        {
+          "displayLabel": "Barcode",
+          "#text": "33433090960885",
+          "type": "local_barcode"
+        },
+        {
+          "#text": "06c9fb30-2ddf-0131-2855-58d385a7b928",
+          "type": "uuid"
+        }
+      ],
+      "typeOfResource": {
+        "usage": "primary",
+        "#text": "cartographic"
+      },
+      "subject": {
+        "topic": {
+          "valueURI": "http://id.loc.gov/authorities/subjects/sh85010400",
+          "#text": "Automobile travel -- Guidebooks",
+          "authority": "lcsh"
+        }
+      }
+    },
+    "ingestionSequence": 13,
+    "provider": {
+      "@id": "http://dp.la/api/contributor/nypl",
+      "name": "The New York Public Library"
+    },
+    "isShownAt": "http://digitalcollections.nypl.org/items/000003e0-7239-0131-dc4e-58d385a7bbd0",
+    "ingestType": "item",
+    "_id": "nypl--000003e0-7239-0131-dc4e-58d385a7bbd0",
+    "@id": "http://dp.la/api/items/4aefd9e1cd9fb905a64cd9ac5657bc7c",
+    "id": "4aefd9e1cd9fb905a64cd9ac5657bc7c"
+  },
+  {
+    "@context": "http://dp.la/api/items/context",
+    "dataProvider": "Henry W. and Albert A. Berg Collection of English and American Literature. The New York Public Library",
+    "admin": {
+      "object_status": 1,
+      "valid_after_enrich": true,
+      "validation_message": null
+    },
+    "sourceResource": {
+      "description": "[1 envelope, in WW's hand] \n[Main sequence of pagination, as follows (some pages have other number as well):\n232-235, 235\u00bd, 235\u00be, 236-249, 247/48/49/50, 251-261, 261\u00bd, 262-271, 271\u00bd, 272-287, 287\u00bc, 287\u00bd, 288-291, 291[bis], 292-298; 309-313, 314/15, 316-336, 336\u00bd, 337-338, 338\u00bd, 339, 339\u00bd, 340-342, 342\u00bd, 343-345, 345a, 345b, 345c, 346].\n With prospectus for critical edition with 25 facsimiles, New York University Press, 1974.",
+      "rights": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "@id": "http://dp.la/api/items/19c6f278c4e7ada5d9f2d3ae2f410cea#sourceResource",
+      "creator": ["Bucke, Richard Maurice, 1837-1902"],
+      "collection": {
+        "@id": "http://dp.la/api/collections/f74c253803f16a61903e271cfde9863a",
+        "id": "f74c253803f16a61903e271cfde9863a",
+        "title": "Series I. Manuscripts"
+      },
+      "date": {
+        "begin": "1882",
+        "end": "1882",
+        "displayDate": "1882-1882"
+      },
+      "relation": "Series I. Manuscripts",
+      "extent": "118 leaves",
+      "stateLocatedIn": [{"name": "New York"}],
+      "title": "\"Analysis of Poems,\" i.e. Leaves of Grass, by Richard Maurice Bucke, revised, annotated and corrected by Walt Whitman. (See also: Manuscripts relating to Whitman)",
+      "type": "text",
+      "subject": [
+        {"name": "Literary criticism"},
+        {"name": "Criticism"}
+      ]
+    },
+    "_rev": "1-0334695f43eca2ab33df8d3fe63e85b6",
+    "object": "http://images.nypl.org/index.php?id=5123028&t=t",
+    "aggregatedCHO": "#sourceResource",
+    "ingestDate": "2014-09-05T17:54:02.205262Z",
+    "@type": "ore:Aggregation",
+    "originalRecord": {
+      "physicalDescription": {
+        "note": "[1 envelope, in WW's hand]  \n[Main sequence of pagination, as follows (some pages have other number as well):\n232-235, 235\u00bd, 235\u00be, 236-249, 247/48/49/50, 251-261, 261\u00bd, 262-271, 271\u00bd, 272-287, 287\u00bc, 287\u00bd, 288-291, 291[bis], 292-298; 309-313, 314/15, 316-336, 336\u00bd, 337-338, 338\u00bd, 339, 339\u00bd, 340-342, 342\u00bd, 343-345, 345a, 345b, 345c, 346].\n With prospectus for critical edition with 25 facsimiles, New York University Press, 1974.",
+        "extent": "118 leaves",
+        "form": [
+          {
+            "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm012286",
+            "#text": "Manuscripts",
+            "authority": "lctgm"
+          },
+          {
+            "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm008313",
+            "#text": "Proofs",
+            "authority": "lctgm"
+          },
+          {
+            "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm002169",
+            "#text": "Clippings",
+            "authority": "lctgm"
+          }
+        ]
+      },
+      "tmp_high_res_link": null,
+      "_id": "0000af70-b9c8-0131-e822-58d385a7bbd0",
+      "name": [
+        {
+          "namePart": "Whitman, Walt, 1819-1892",
+          "valueURI": "http://id.loc.gov/authorities/names/n79081476",
+          "type": "",
+          "authority": "naf"
+        },
+        {
+          "role": {
+            "roleTerm": [
+              {
+                "valueURI": "http://id.loc.gov/vocabulary/relators/aut",
+                "#text": "aut",
+                "type": "code",
+                "authority": "marcrelator"
+              },
+              {
+                "valueURI": "http://id.loc.gov/vocabulary/relators/aut",
+                "#text": "Author",
+                "type": "text",
+                "authority": "marcrelator"
+              }
+            ]
+          },
+          "namePart": "Bucke, Richard Maurice, 1837-1902",
+          "valueURI": "http://id.loc.gov/authorities/names/n50041374",
+          "type": "",
+          "authority": "naf"
+        }
+      ],
+      "tmp_image_id": "5123028",
+      "titleInfo": {
+        "lang": "",
+        "title": "\"Analysis of Poems,\" i.e. Leaves of Grass, by Richard Maurice Bucke, revised, annotated and corrected by Walt Whitman. (See also: Manuscripts relating to Whitman).",
+        "script": "",
+        "authority": "",
+        "usage": "primary",
+        "type": ""
+      },
+      "tmp_rights_statement": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "collection": {
+        "@id": "http://dp.la/api/collections/f74c253803f16a61903e271cfde9863a",
+        "id": "f74c253803f16a61903e271cfde9863a"
+      },
+      "relatedItem": {
+        "titleInfo": {"title": "Series I. Manuscripts"},
+        "type": "host",
+        "identifier": [
+          {
+            "#text": "78cb11f0-2132-0130-2ead-58d385a7b928",
+            "type": "uuid"
+          },
+          {
+            "#text": "1887810",
+            "type": "local_hades"
+          }
+        ],
+        "relatedItem": {
+          "titleInfo": {"title": "Walt Whitman papers, 1854-1892"},
+          "type": "host",
+          "identifier": [
+            {
+              "#text": "e020e560-c62d-012f-a0f9-58d385a7bc34",
+              "type": "uuid"
+            },
+            {
+              "#text": "1887809",
+              "type": "local_hades"
+            },
+            {
+              "#text": "b15520479",
+              "type": "local_bnumber"
+            }
+          ]
+        }
+      },
+      "tmp_item_link": "http://digitalcollections.nypl.org/items/0000af70-b9c8-0131-e822-58d385a7bbd0",
+      "originInfo": {
+        "dateCreated": {
+          "#text": "1882",
+          "qualifier": "approximate",
+          "encoding": "w3cdtf"
+        }
+      },
+      "location": [
+        {
+          "physicalLocation": [
+            {
+              "#text": "nn",
+              "type": "repository",
+              "authority": "marcorg"
+            },
+            {
+              "#text": "Henry W. and Albert A. Berg Collection of English and American Literature",
+              "type": "division"
+            }
+          ],
+          "shelfLocator": "Berg Coll MSS Whitman"
+        },
+        {
+          "physicalLocation": [
+            {
+              "#text": "nn",
+              "type": "repository",
+              "authority": "marcorg"
+            },
+            {
+              "#text": "Henry W. and Albert A. Berg Collection of English and American Literature",
+              "type": "division"
+            }
+          ],
+          "shelfLocator": "Walt Whitman Autograph Revision of Analysis of Leaves of Grass +"
+        }
+      ],
+      "version": "3.4",
+      "provider": {
+        "@id": "http://dp.la/api/contributor/nypl",
+        "name": "The New York Public Library"
+      },
+      "genre": [
+        {
+          "valueURI": "",
+          "#text": "literary criticism",
+          "authority": "aat"
+        },
+        {
+          "valueURI": "http://id.loc.gov/authorities/subjects/sh85034149",
+          "#text": "Criticism",
+          "authority": "lcsh"
+        }
+      ],
+      "schemaLocation": "http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd",
+      "identifier": [
+        {
+          "displayLabel": "NYPL catalog ID (B-number)",
+          "#text": "b15520479",
+          "type": "local_bnumber"
+        },
+        {
+          "displayLabel": "accession number",
+          "#text": "2002022",
+          "type": "local_other"
+        },
+        {
+          "#text": "627364e0-9563-0130-6d76-58d385a7b928",
+          "type": "uuid"
+        }
+      ],
+      "typeOfResource": {
+        "#text": "text",
+        "manuscript": "yes"
+      }
+    },
+    "ingestionSequence": 13,
+    "provider": {
+      "@id": "http://dp.la/api/contributor/nypl",
+      "name": "The New York Public Library"
+    },
+    "isShownAt": "http://digitalcollections.nypl.org/items/0000af70-b9c8-0131-e822-58d385a7bbd0",
+    "ingestType": "item",
+    "_id": "nypl--0000af70-b9c8-0131-e822-58d385a7bbd0",
+    "@id": "http://dp.la/api/items/19c6f278c4e7ada5d9f2d3ae2f410cea",
+    "id": "19c6f278c4e7ada5d9f2d3ae2f410cea"
+  },
+  {
+    "@context": "http://dp.la/api/items/context",
+    "dataProvider": "Dorot Jewish Division. The New York Public Library",
+    "admin": {
+      "object_status": 1,
+      "valid_after_enrich": true,
+      "validation_message": null
+    },
+    "sourceResource": {
+      "publisher": ["American Jewish Committee, Oral History Library"],
+      "description": "Transcript of an interview conducted by Clifford Chanin, Aug. 23, Oct. 10, 1984 and April 24, 1985.",
+      "rights": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "@id": "http://dp.la/api/items/c2cb0f4056190acdbd5bb42de5a5aca2#sourceResource",
+      "creator": ["Chanin, Clifford"],
+      "contributor": ["Krauss, Mitchell"],
+      "collection": {
+        "@id": "http://dp.la/api/collections/deebbed3a37a20d896a3098ce556b5cd",
+        "id": "deebbed3a37a20d896a3098ce556b5cd",
+        "title": "American Jewish Committee Oral History Collection"
+      },
+      "stateLocatedIn": [{"name": "New York"}],
+      "relation": "American Jewish Committee Oral History Collection",
+      "extent": "29 cm. + 4 sound cassettes.",
+      "spatial": [{"name": "New York"}],
+      "date": {
+        "begin": "1985",
+        "end": "1985",
+        "displayDate": "1985-1985"
+      },
+      "title": "Mitchell Krauss: [interview]",
+      "type": "text",
+      "subject": [
+        {"name": "Krauss, Mitchell--Interviews"},
+        {"name": "Jews--New York (State)--Riverdale"},
+        {"name": "Broadcasters--Biography"},
+        {"name": "Foreign correspondents--Biography"},
+        {"name": "Jews--Egypt"},
+        {"name": "Oral histories"}
+      ]
+    },
+    "_rev": "1-866ed5c1bdcf8df6481fac1ee1128d51",
+    "object": "http://images.nypl.org/index.php?id=i170660448-I00133&t=t",
+    "aggregatedCHO": "#sourceResource",
+    "ingestDate": "2014-09-05T17:53:44.431204Z",
+    "@type": "ore:Aggregation",
+    "originalRecord": {
+      "physicalDescription": {
+        "extent": "29 cm. + 4 sound cassettes.",
+        "form": {
+          "valueURI": "",
+          "#text": "223 p.",
+          "authority": ""
+        }
+      },
+      "tmp_high_res_link": null,
+      "_id": "0000b880-0368-0131-ac48-58d385a7b928",
+      "name": [
+        {
+          "valueURI": "",
+          "authority": "",
+          "namePart": "Krauss, Mitchell.",
+          "role": {
+            "roleTerm": [
+              {
+                "valueURI": "http://id.loc.gov/vocabulary/relators/ive",
+                "#text": "ive",
+                "type": "code",
+                "authority": "marcrelator"
+              },
+              {
+                "valueURI": "http://id.loc.gov/vocabulary/relators/ive",
+                "#text": "Interviewee",
+                "type": "text",
+                "authority": "marcrelator"
+              }
+            ]
+          },
+          "usage": "primary",
+          "type": "personal"
+        },
+        {
+          "role": {
+            "roleTerm": [
+              {
+                "valueURI": "http://id.loc.gov/vocabulary/relators/ivr",
+                "#text": "ivr",
+                "type": "code",
+                "authority": "marcrelator"
+              },
+              {
+                "valueURI": "http://id.loc.gov/vocabulary/relators/ivr",
+                "#text": "Interviewer",
+                "type": "text",
+                "authority": "marcrelator"
+              }
+            ]
+          },
+          "namePart": "Chanin, Clifford",
+          "valueURI": "http://id.loc.gov/authorities/names/no2003123937",
+          "type": "personal",
+          "authority": "naf"
+        },
+        {
+          "namePart": "American Jewish Committee",
+          "valueURI": "http://id.loc.gov/authorities/names/n80013613",
+          "type": "corporate",
+          "authority": "naf"
+        }
+      ],
+      "tmp_image_id": "i170660448-I00133",
+      "titleInfo": [
+        {
+          "lang": "",
+          "title": "American Jewish Committee Oral History Collection",
+          "script": "",
+          "authority": "",
+          "usage": "primary",
+          "type": ""
+        },
+        {
+          "lang": "",
+          "subTitle": "[interview]",
+          "title": "Mitchell Krauss: [interview]",
+          "script": "",
+          "authority": "",
+          "usage": "primary",
+          "type": ""
+        }
+      ],
+      "tmp_rights_statement": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "collection": {
+        "@id": "http://dp.la/api/collections/deebbed3a37a20d896a3098ce556b5cd",
+        "id": "deebbed3a37a20d896a3098ce556b5cd"
+      },
+      "relatedItem": {
+        "titleInfo": {"title": "American Jewish Committee Oral History Collection"},
+        "type": "host",
+        "identifier": [
+          {
+            "#text": "da4687f0-cc71-0130-fb40-58d385a7b928",
+            "type": "uuid"
+          },
+          {
+            "#text": "AJCOH1979",
+            "type": "local_other"
+          }
+        ]
+      },
+      "note": {
+        "#text": "Transcript of an interview conducted by Clifford Chanin, Aug. 23, Oct. 10, 1984 and April 24, 1985.",
+        "type": ""
+      },
+      "tmp_item_link": "http://digitalcollections.nypl.org/items/0000b880-0368-0131-ac48-58d385a7b928",
+      "originInfo": {
+        "dateIssued": "1985",
+        "place": {
+          "placeTerm": {
+            "#text": "New York",
+            "type": "text"
+          }
+        },
+        "publisher": "American Jewish Committee, Oral History Library"
+      },
+      "location": {
+        "physicalLocation": [
+          {
+            "#text": "nn",
+            "type": "repository",
+            "authority": "marcorg"
+          },
+          {
+            "#text": "Dorot Jewish Division",
+            "type": "division"
+          }
+        ],
+        "shelfLocator": "**P (Oral Histories, Box 138 no. 3)"
+      },
+      "version": "3.4",
+      "provider": {
+        "@id": "http://dp.la/api/contributor/nypl",
+        "name": "The New York Public Library"
+      },
+      "genre": {
+        "valueURI": "http://id.loc.gov/authorities/subjects/sh2008025718",
+        "#text": "Oral histories",
+        "authority": "lcsh"
+      },
+      "schemaLocation": "http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd",
+      "identifier": [
+        {
+          "displayLabel": "NYPL catalog ID (B-number)",
+          "#text": "b14669038",
+          "type": "local_bnumber"
+        },
+        {
+          "#text": "10bc5d30-cc88-0130-8a1b-58d385a7bbd0",
+          "type": "uuid"
+        }
+      ],
+      "typeOfResource": {
+        "usage": "primary",
+        "#text": "text"
+      },
+      "subject": [
+        {
+          "name": {
+            "namePart": "Krauss, Mitchell -- Interviews",
+            "valueURI": "",
+            "type": "personal",
+            "authority": ""
+          }
+        },
+        {
+          "topic": {
+            "valueURI": "http://id.loc.gov/authorities/subjects/sh85070361",
+            "#text": "Jews -- New York (State) -- Riverdale",
+            "authority": "lcsh"
+          }
+        },
+        {
+          "topic": {
+            "valueURI": "http://id.loc.gov/authorities/subjects/sh85017003",
+            "#text": "Broadcasters -- Biography",
+            "authority": "lcsh"
+          }
+        },
+        {
+          "topic": {
+            "valueURI": "http://id.loc.gov/authorities/subjects/sh85050493",
+            "#text": "Foreign correspondents -- Biography",
+            "authority": "lcsh"
+          }
+        },
+        {
+          "topic": {
+            "valueURI": "http://id.loc.gov/authorities/subjects/sh85070361",
+            "#text": "Jews -- Egypt",
+            "authority": "lcsh"
+          }
+        },
+        {"topic": "Korea -- History -- War and intervention, 1950-1953 -- Participation, Jewish"}
+      ]
+    },
+    "ingestionSequence": 13,
+    "provider": {
+      "@id": "http://dp.la/api/contributor/nypl",
+      "name": "The New York Public Library"
+    },
+    "isShownAt": "http://digitalcollections.nypl.org/items/0000b880-0368-0131-ac48-58d385a7b928",
+    "ingestType": "item",
+    "_id": "nypl--0000b880-0368-0131-ac48-58d385a7b928",
+    "@id": "http://dp.la/api/items/c2cb0f4056190acdbd5bb42de5a5aca2",
+    "id": "c2cb0f4056190acdbd5bb42de5a5aca2"
+  },
+  {
+    "@context": "http://dp.la/api/items/context",
+    "dataProvider": "Billy Rose Theatre Division. The New York Public Library",
+    "admin": {
+      "object_status": 1,
+      "valid_after_enrich": true,
+      "validation_message": null
+    },
+    "sourceResource": {
+      "description": "This image from the Friedman-Abeles Collection has been preserved, cataloged, and digitized through the generosity of Nancy Abeles Marks and the Joseph S. and Diane H. Steinberg Charitable Trust.",
+      "title": "Can can, touring cast. [1955]",
+      "@id": "http://dp.la/api/items/d46fbba66f56645ec11146885e5e2e22#sourceResource",
+      "rights": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "collection": {
+        "@id": "http://dp.la/api/collections/ee04a87001e40e3000df3b075ecccc56",
+        "id": "ee04a87001e40e3000df3b075ecccc56",
+        "title": "Touring cast. [1955]"
+      },
+      "stateLocatedIn": [{"name": "New York"}],
+      "relation": "Touring cast. [1955]",
+      "date": {
+        "begin": "1955",
+        "end": "1955",
+        "displayDate": "1955-1955"
+      },
+      "type": "image",
+      "subject": [
+        {"name": "Porter, Cole, 1891-1964. Can-can"},
+        {"name": "Photographs"}
+      ]
+    },
+    "_rev": "1-06808c44732e7a1ba9d90915eff171e6",
+    "object": "http://images.nypl.org/index.php?id=5130545&t=t",
+    "aggregatedCHO": "#sourceResource",
+    "ingestDate": "2014-09-05T18:03:32.230262Z",
+    "@type": "ore:Aggregation",
+    "originalRecord": {
+      "tmp_high_res_link": null,
+      "tmp_image_id": "5130545",
+      "_id": "000125c0-f447-012f-b12a-58d385a7b928",
+      "titleInfo": [
+        {
+          "lang": "",
+          "script": "",
+          "title": "Friedman-Abeles photograph collection",
+          "authority": "",
+          "supplied": "yes",
+          "usage": "primary",
+          "type": ""
+        },
+        {
+          "usage": "primary",
+          "supplied": "no",
+          "title": "Productions."
+        },
+        {
+          "lang": "eng",
+          "usage": "primary",
+          "supplied": "no",
+          "title": "Can Can"
+        },
+        {
+          "lang": "eng",
+          "usage": "primary",
+          "supplied": "no",
+          "title": "Touring cast. [1955]"
+        },
+        {
+          "lang": "",
+          "title": "Can can, touring cast. [1955]",
+          "type": "",
+          "authority": "",
+          "script": ""
+        }
+      ],
+      "subject": {
+        "name": {
+          "namePart": "Porter, Cole, 1891-1964. Can-can",
+          "type": "personal",
+          "authority": "naf"
+        }
+      },
+      "tmp_rights_statement": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "collection": {
+        "@id": "http://dp.la/api/collections/ee04a87001e40e3000df3b075ecccc56",
+        "id": "ee04a87001e40e3000df3b075ecccc56"
+      },
+      "relatedItem": {
+        "titleInfo": {"title": "Touring cast. [1955]"},
+        "type": "host",
+        "identifier": [
+          {
+            "#text": "bc8070a0-c546-012f-ded2-58d385a7bc34",
+            "type": "uuid"
+          },
+          {
+            "#text": "2088671",
+            "type": "local_hades"
+          }
+        ],
+        "relatedItem": {
+          "titleInfo": {"title": "Can Can"},
+          "type": "host",
+          "identifier": [
+            {
+              "#text": "bb706750-c546-012f-2091-58d385a7bc34",
+              "type": "uuid"
+            },
+            {
+              "#text": "2088669",
+              "type": "local_hades"
+            }
+          ],
+          "relatedItem": {
+            "titleInfo": {"title": "Productions."},
+            "type": "host",
+            "identifier": [
+              {
+                "#text": "48c27050-c544-012f-0b3f-58d385a7bc34",
+                "type": "uuid"
+              },
+              {
+                "#text": "2051865",
+                "type": "local_hades"
+              }
+            ],
+            "relatedItem": {
+              "titleInfo": {"title": "Friedman-Abeles photograph collection"},
+              "type": "host",
+              "identifier": [
+                {
+                  "#text": "7a830280-c542-012f-b87c-58d385a7bc34",
+                  "type": "uuid"
+                },
+                {
+                  "#text": "2004627",
+                  "type": "local_hades"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "note": {
+        "#text": "This image from the Friedman-Abeles Collection has been preserved, cataloged, and digitized through the generosity of Nancy Abeles Marks and the Joseph S. and Diane H. Steinberg Charitable Trust.",
+        "type": "content"
+      },
+      "version": "3.4",
+      "originInfo": {
+        "dateCreated": {
+          "#text": "1955",
+          "encoding": "w3cdtf"
+        }
+      },
+      "location": [
+        {
+          "physicalLocation": [
+            {
+              "#text": "nn",
+              "type": "repository",
+              "authority": "marcorg"
+            },
+            {
+              "#text": "Billy Rose Theatre Division",
+              "type": "division"
+            }
+          ],
+          "shelfLocator": "*T-VIM 1992-013"
+        },
+        {
+          "physicalLocation": {
+            "#text": "nn",
+            "type": "repository",
+            "authority": "marcorg"
+          }
+        }
+      ],
+      "provider": {
+        "@id": "http://dp.la/api/contributor/nypl",
+        "name": "The New York Public Library"
+      },
+      "genre": {
+        "valueURI": "http://id.loc.gov/vocabulary/graphicMaterials/tgm007721",
+        "#text": "Photographs",
+        "authority": "lctgm"
+      },
+      "schemaLocation": "http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd",
+      "identifier": [
+        {
+          "displayLabel": "Other local Identifier",
+          "#text": "Friedman Abeles project",
+          "type": "local_other"
+        },
+        {
+          "#text": "e13de4d0-f446-012f-e741-58d385a7b928",
+          "type": "uuid"
+        }
+      ],
+      "typeOfResource": "still image",
+      "tmp_item_link": "http://digitalcollections.nypl.org/items/000125c0-f447-012f-b12a-58d385a7b928"
+    },
+    "ingestionSequence": 13,
+    "provider": {
+      "@id": "http://dp.la/api/contributor/nypl",
+      "name": "The New York Public Library"
+    },
+    "isShownAt": "http://digitalcollections.nypl.org/items/000125c0-f447-012f-b12a-58d385a7b928",
+    "ingestType": "item",
+    "_id": "nypl--000125c0-f447-012f-b12a-58d385a7b928",
+    "@id": "http://dp.la/api/items/d46fbba66f56645ec11146885e5e2e22",
+    "id": "d46fbba66f56645ec11146885e5e2e22"
+  },
+  {
+    "@context": "http://dp.la/api/items/context",
+    "dataProvider": "Manuscripts and Archives Division. The New York Public Library",
+    "admin": {
+      "object_status": 1,
+      "valid_after_enrich": true,
+      "validation_message": null
+    },
+    "sourceResource": {
+      "publisher": ["C.S. Francis"],
+      "rights": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "@id": "http://dp.la/api/items/3647005c728723bde9a032ae583dcb6e#sourceResource",
+      "title": "Theworks of William E. Channing, volume 4",
+      "collection": {
+        "@id": "http://dp.la/api/collections/784f578d3c5e1ba4bdb83c11f8919929",
+        "id": "784f578d3c5e1ba4bdb83c11f8919929",
+        "title": "Works of William E. Channing"
+      },
+      "stateLocatedIn": [{"name": "New York"}],
+      "relation": "Works of William E. Channing",
+      "date": {
+        "begin": "1848",
+        "end": "1848",
+        "displayDate": "1848-1848"
+      },
+      "type": "text",
+      "subject": [{"name": "Gansevoort family"}]
+    },
+    "_rev": "1-1fd9a186ec27ecbeaca46f6a82c03915",
+    "object": "http://images.nypl.org/index.php?id=5114971&t=t",
+    "aggregatedCHO": "#sourceResource",
+    "ingestDate": "2014-09-05T19:12:13.941061Z",
+    "@type": "ore:Aggregation",
+    "originalRecord": {
+      "tmp_high_res_link": null,
+      "_id": "00022e90-a873-0131-b385-58d385a7b928",
+      "name": {
+        "usage": "primary",
+        "namePart": "Channing, William Ellery, 1817-1901",
+        "valueURI": "http://id.loc.gov/authorities/names/n50055894",
+        "type": "personal",
+        "authority": "naf"
+      },
+      "classification": {
+        "#text": "BX9815 .C4 1848",
+        "authority": "lcc"
+      },
+      "tmp_image_id": "5114971",
+      "titleInfo": [
+        {
+          "lang": "eng",
+          "usage": "primary",
+          "supplied": "no",
+          "title": "Gansevoort-Lansing collection, 1650-1919, bulk (1800-1899)."
+        },
+        {
+          "usage": "primary",
+          "supplied": "no",
+          "title": "Melville family library"
+        },
+        {
+          "lang": "",
+          "script": "",
+          "title": "works of William E. Channing",
+          "authority": "",
+          "usage": "primary",
+          "type": "",
+          "nonSort": "The "
+        },
+        {
+          "lang": "",
+          "title": "Works. 1848",
+          "type": "uniform",
+          "authority": "",
+          "script": ""
+        },
+        {
+          "lang": "",
+          "title": "Theworks of William E. Channing, volume 4",
+          "script": "",
+          "authority": "",
+          "usage": "primary",
+          "type": ""
+        }
+      ],
+      "tmp_rights_statement": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "collection": {
+        "@id": "http://dp.la/api/collections/784f578d3c5e1ba4bdb83c11f8919929",
+        "id": "784f578d3c5e1ba4bdb83c11f8919929"
+      },
+      "relatedItem": {
+        "titleInfo": {"title": "works of William E. Channing"},
+        "type": "host",
+        "identifier": [
+          {
+            "#text": "5aba0580-d1fc-0130-12fa-58d385a7b928",
+            "type": "uuid"
+          },
+          {
+            "#text": "48040424",
+            "type": "lccn"
+          },
+          {
+            "#text": "b11757696",
+            "type": "local_bnumber"
+          }
+        ],
+        "relatedItem": {
+          "titleInfo": {"title": "Melville family library"},
+          "type": "host",
+          "identifier": [
+            {
+              "#text": "f3e2e220-c625-012f-7087-58d385a7bc34",
+              "type": "uuid"
+            },
+            {
+              "#text": "1922385",
+              "type": "local_hades"
+            }
+          ],
+          "relatedItem": {
+            "titleInfo": {"title": "Gansevoort-Lansing collection, 1650-1919, bulk (1800-1899)."},
+            "type": "host",
+            "identifier": [
+              {
+                "#text": "f1357ec0-c625-012f-adbb-58d385a7bc34",
+                "type": "uuid"
+              },
+              {
+                "#text": "1921285",
+                "type": "local_hades"
+              },
+              {
+                "#text": "b11635605",
+                "type": "local_bnumber"
+              },
+              {
+                "#text": "b2669576",
+                "type": "local_catnyp"
+              },
+              {
+                "#text": "NYPW92-A207",
+                "type": "local_other"
+              }
+            ]
+          }
+        }
+      },
+      "note": [
+        {
+          "#text": "1919 Gansevoort-Lansing, Catherine; Ann P. Hays; John and Carolyn De Marco (Lyrical Ballad Bookstore); etc. Gift and purchase",
+          "type": "ownership"
+        },
+        {
+          "#text": "The Gansevoorts and the Lansings were two of the original Dutch families to settle in the Hudson and Mohawk Valleys of New York State. Other families who intermarried with the Gansevoorts and the Lansings were the Melvilles, Sanfords and Van Schaicks. Members of these families were prominent in politics, the military, literature, law, politics, medicine, and economics.",
+          "type": "content"
+        },
+        {
+          "#text": "MSS 85M84",
+          "type": "ownership"
+        }
+      ],
+      "tmp_item_link": "http://digitalcollections.nypl.org/items/00022e90-a873-0131-b385-58d385a7b928",
+      "originInfo": {
+        "edition": "8th complete ed.,",
+        "place": [
+          {
+            "placeTerm": {
+              "#text": "Boston",
+              "type": "text"
+            }
+          },
+          {
+            "placeTerm": {
+              "#text": "New York",
+              "type": "text"
+            }
+          }
+        ],
+        "dateIssued": "1848",
+        "publisher": "C.S. Francis"
+      },
+      "location": [
+        {
+          "physicalLocation": {
+            "#text": "Manuscripts and Archives Division",
+            "type": "division"
+          },
+          "shelfLocator": "MssCol 1109"
+        },
+        {
+          "physicalLocation": [
+            {
+              "#text": "nn",
+              "type": "repository",
+              "authority": "marcorg"
+            },
+            {
+              "#text": "Manuscripts and Archives Division",
+              "type": "division"
+            }
+          ],
+          "shelfLocator": "MSS DIV GL SEALTS 130 "
+        }
+      ],
+      "version": "3.4",
+      "provider": {
+        "@id": "http://dp.la/api/contributor/nypl",
+        "name": "The New York Public Library"
+      },
+      "schemaLocation": "http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd",
+      "identifier": [
+        {
+          "displayLabel": "NYPL catalog ID (B-number)",
+          "#text": "b11635605",
+          "type": "local_bnumber"
+        },
+        {
+          "displayLabel": "CATNYP ID (legacy)",
+          "#text": "b2669576",
+          "type": "local_catnyp"
+        },
+        {
+          "displayLabel": "RLIN/OCLC",
+          "#text": "NYPW92-A207",
+          "type": "local_other"
+        },
+        {
+          "displayLabel": "NYPL catalog ID (B-number)",
+          "#text": "b11757696",
+          "type": "local_bnumber"
+        },
+        {
+          "#text": "15f5e5e0-d201-0130-8dd0-58d385a7b928",
+          "type": "uuid"
+        }
+      ],
+      "typeOfResource": {
+        "usage": "primary",
+        "#text": "text"
+      },
+      "subject": {
+        "name": {
+          "namePart": "Gansevoort family",
+          "type": "family",
+          "authority": "lcsh"
+        }
+      }
+    },
+    "ingestionSequence": 13,
+    "provider": {
+      "@id": "http://dp.la/api/contributor/nypl",
+      "name": "The New York Public Library"
+    },
+    "isShownAt": "http://digitalcollections.nypl.org/items/00022e90-a873-0131-b385-58d385a7b928",
+    "ingestType": "item",
+    "_id": "nypl--00022e90-a873-0131-b385-58d385a7b928",
+    "@id": "http://dp.la/api/items/3647005c728723bde9a032ae583dcb6e",
+    "id": "3647005c728723bde9a032ae583dcb6e"
+  },
+  {
+    "@context": "http://dp.la/api/items/context",
+    "dataProvider": "Billy Rose Theatre Division. The New York Public Library",
+    "admin": {
+      "object_status": 1,
+      "valid_after_enrich": true,
+      "validation_message": null
+    },
+    "sourceResource": {
+      "rights": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "description": "SW-604",
+      "title": "Actor Gene Hackman in a publicity shot fr. the Broadway play \"Death and the Maiden.\" (New York)",
+      "@id": "http://dp.la/api/items/d165e2b22b7a3beec990b25b523366ff#sourceResource",
+      "creator": ["Swope, Martha"],
+      "collection": {
+        "@id": "http://dp.la/api/collections/19e5b1b83a4a893a8b2b0370d3f95278",
+        "id": "19e5b1b83a4a893a8b2b0370d3f95278",
+        "title": "Death and the maiden."
+      },
+      "stateLocatedIn": [{"name": "New York"}],
+      "relation": "Death and the maiden",
+      "date": {
+        "begin": "1992-01-01",
+        "end": "1992-01-01",
+        "displayDate": "1992-01-01"
+      },
+      "type": "image"
+    },
+    "_rev": "1-848b10a9f746883f27b4e532f8febbc0",
+    "object": "http://images.nypl.org/index.php?id=swope_1190149&t=t",
+    "aggregatedCHO": "#sourceResource",
+    "ingestDate": "2014-09-05T17:53:44.431204Z",
+    "@type": "ore:Aggregation",
+    "originalRecord": {
+      "tmp_high_res_link": null,
+      "_id": "0002ede0-e292-0130-ffa4-58d385a7bbd0",
+      "name": {
+        "valueURI": "",
+        "authority": "naf",
+        "namePart": "Swope, Martha",
+        "role": {
+          "roleTerm": [
+            {
+              "valueURI": "http://id.loc.gov/vocabulary/relators/pht",
+              "#text": "pht",
+              "type": "code",
+              "authority": "marcrelator"
+            },
+            {
+              "valueURI": "http://id.loc.gov/vocabulary/relators/pht",
+              "#text": "Photographer",
+              "type": "text",
+              "authority": "marcrelator"
+            }
+          ]
+        },
+        "usage": "primary",
+        "type": "personal"
+      },
+      "tmp_image_id": "swope_1190149",
+      "titleInfo": [
+        {
+          "lang": "eng",
+          "script": "",
+          "title": "Martha Swope photographs",
+          "authority": "",
+          "supplied": "yes",
+          "usage": "primary",
+          "type": ""
+        },
+        {
+          "usage": "primary",
+          "supplied": "no",
+          "title": "Series V.  Digitized slides and mounted negatives"
+        },
+        {"title": "Series V. Slides and mounted negatives partially digitized by Time-Life"},
+        {
+          "usage": "primary",
+          "supplied": "no",
+          "title": "Theater (and other show titles)"
+        },
+        {
+          "usage": "primary",
+          "title": "Actor Gene Hackman in a publicity shot fr. the Broadway play \"Death and the Maiden.\" (New York)"
+        }
+      ],
+      "tmp_rights_statement": "The New York Public Library is interested in learning more about items you've seen on our websites or elsewhere online. If you have any more information about an item or its copyright status, we want to hear from you. Please contact DigitalCollections@nypl.org with your contact information and a link to the relevant content.",
+      "collection": {
+        "@id": "http://dp.la/api/collections/19e5b1b83a4a893a8b2b0370d3f95278",
+        "id": "19e5b1b83a4a893a8b2b0370d3f95278"
+      },
+      "relatedItem": {
+        "titleInfo": {"title": "Death and the maiden."},
+        "type": "host",
+        "identifier": [
+          {
+            "#text": "d20271e0-c5f0-012f-96e6-58d385a7bc34",
+            "type": "uuid"
+          },
+          {
+            "#text": "2034309",
+            "type": "local_hades"
+          }
+        ],
+        "relatedItem": {
+          "titleInfo": {"title": "Theater (and other show titles)"},
+          "type": "host",
+          "identifier": [
+            {
+              "#text": "467d4590-c5ea-012f-6ea9-58d385a7bc34",
+              "type": "uuid"
+            },
+            {
+              "#text": "1947079",
+              "type": "local_hades"
+            }
+          ],
+          "relatedItem": {
+            "titleInfo": {"title": "Series V.  Digitized slides and mounted negatives"},
+            "type": "host",
+            "identifier": [
+              {
+                "#text": "46278380-c5ea-012f-65f0-58d385a7bc34",
+                "type": "uuid"
+              },
+              {
+                "#text": "1947075",
+                "type": "local_hades"
+              }
+            ],
+            "relatedItem": {
+              "titleInfo": {"title": "Martha Swope photographs"},
+              "type": "host",
+              "identifier": [
+                {
+                  "#text": "0146e060-c530-012f-1e6f-58d385a7bc34",
+                  "type": "uuid"
+                },
+                {
+                  "#text": "1946660",
+                  "type": "local_hades"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "note": {
+        "#text": "SW-604",
+        "type": "content"
+      },
+      "tmp_item_link": "http://digitalcollections.nypl.org/items/0002ede0-e292-0130-ffa4-58d385a7bbd0",
+      "originInfo": {
+        "dateCreated": {
+          "#text": "1992-01-01",
+          "encoding": "w3cdtf"
+        }
+      },
+      "location": {
+        "physicalLocation": [
+          {
+            "#text": "nn",
+            "type": "repository",
+            "authority": "marcorg"
+          },
+          {
+            "#text": "Billy Rose Theatre Division",
+            "type": "division"
+          }
+        ],
+        "shelfLocator": "*T-VIM 2010-048"
+      },
+      "version": "3.4",
+      "provider": {
+        "@id": "http://dp.la/api/contributor/nypl",
+        "name": "The New York Public Library"
+      },
+      "schemaLocation": "http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd",
+      "identifier": [
+        {
+          "displayLabel": "Other local Identifier",
+          "#text": "Martha Swope Photographs",
+          "type": "local_other"
+        },
+        {
+          "#text": "ffa92f10-e291-0130-b444-58d385a7bbd0",
+          "type": "uuid"
+        }
+      ],
+      "typeOfResource": {
+        "#text": "still image",
+        "manuscript": "true"
+      }
+    },
+    "ingestionSequence": 13,
+    "provider": {
+      "@id": "http://dp.la/api/contributor/nypl",
+      "name": "The New York Public Library"
+    },
+    "isShownAt": "http://digitalcollections.nypl.org/items/0002ede0-e292-0130-ffa4-58d385a7bbd0",
+    "ingestType": "item",
+    "_id": "nypl--0002ede0-e292-0130-ffa4-58d385a7bbd0",
+    "@id": "http://dp.la/api/items/d165e2b22b7a3beec990b25b523366ff",
+    "id": "d165e2b22b7a3beec990b25b523366ff"
+  }
+]

@@ -1,0 +1,4 @@
+source 'http://rubygems.org'
+gem 'yajl-ruby'
+gem 'yajl-ffi'
+gem 'libyajl2', '~> 1.2'
